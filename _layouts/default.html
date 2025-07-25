@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }} - {{ site.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <header>
+    <h1>{{ site.title }}</h1>
+    <nav>
+      <a href="{{ '/' | relative_url }}">Start</a>
+      <a href="{{ '/ueber-uns.html' | relative_url }}">Über uns</a>
+      <a href="{{ '/einsaetze.html' | relative_url }}">Einsätze</a>
+      <a href="{{ '/kontakt.html' | relative_url }}">Kontakt</a>
+    </nav>
+  </header>
+  <main>
+    {{ content }}
+  </main>
+  <footer>
+    <p>&copy; {{ site.time | date: '%Y' }} Löschzug Hochlar</p>
+  </footer>
+</body>
+</html>
