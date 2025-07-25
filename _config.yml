@@ -1,3 +1,6 @@
 title: Feuerwehr Recklinghausen Löschzug Hochlar
 baseurl: "/loeschzug-hochlar"
 url: "https://stefan-becker.github.io"
+
+plugins:
+  - jekyll-seo-tag
