@@ -9,7 +9,7 @@
 <body>
 
   <header>
-    <h1>LÖSCHZUG HOCHLAR</h1>
+    <h1>{{ page.title }} - {{ site.title }}</h1>
     <nav>
       <ul>
         <li><a href="{{ 'https://www.facebook.com/lz.hochlar' }}" target="_blank">Aktuelles</a></li>
@@ -19,7 +19,9 @@
       </ul>
     </nav>
   </header>
-
+  <main>
+    {{ content }}
+  </main>
   <section class="hero">
     <div class="hero-text">
       <h2>Willkommen beim Löschzug Hochlar</h2>
