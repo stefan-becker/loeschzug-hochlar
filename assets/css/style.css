@@ -30,9 +30,9 @@ footer {
 }
 
 footer a {
-  color: white;
   margin: 0 1rem;
   text-decoration: none;
+  color: #222;
 }
 
 footer a:hover {
