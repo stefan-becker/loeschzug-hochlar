@@ -10,9 +10,9 @@ Wir freuen uns über Ihr Interesse an unserer Website. Der Schutz Ihrer personen
 
 ## Verantwortlicher
 
-Löschzug Hochlar  
-Adresse: Musterstraße 1, 45659 Recklinghausen  
-E-Mail: kontakt@loeschzug-hochlar.de
+Feuerwehr Recklinghausen Löschzug Hochlar  
+Adresse: Averdunkstraße 1, 45659 Recklinghausen  
+E-Mail: info@lz-hochlar.de
 
 ## Hosting
 
