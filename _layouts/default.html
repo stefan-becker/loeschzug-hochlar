@@ -2,29 +2,58 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8">
-  <title>{{ page.title }} - {{ site.title }}</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-  {% seo %}
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Löschzug Hochlar</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
   <header>
-    <img src="{{ '/assets/img/logo-hochlar.jpg'| relative_url }}" alt="Logo Löschzug Hochlar 125 Jahre" width="100px" height="100px" style="float: left;">
-    <h1>{{ site.title }}</h1>
+    <h1>LÖSCHZUG HOCHLAR</h1>
     <nav>
-      <a href="{{ '/' | relative_url }}">Start</a>
-      <a href="{{ 'https://www.facebook.com/lz.hochlar' }}" target="_blank">Aktuelles</a>
-      <a href="{{ '/ueber-uns.html' | relative_url }}">Über uns</a>
-      <a href="{{ 'https://www.kreis-re.de/Inhalte/Buergerservice/Leben_und_Wohnen/Feuerwehr-_und_Rettungsleitstelle/_Einsaetze_der_Feuerwehren/index.asp' }}" target="_blank">Einsätze</a>
-      <a href="{{ '/tanz-in-den-mai.html' | relative_url }}">Tanz in den Mai</a>
-      <a href="{{ '/kontakt.html' | relative_url }}">Kontakt</a>
+      <ul>
+        <li><a href="#aktuelles">Aktuelles</a></li>
+        <li><a href="#ueber-uns">Über uns</a></li>
+        <li><a href="#mitmachen">Mitmachen</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+      </ul>
     </nav>
   </header>
-  <main>
-    {{ content }}
-  </main>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Willkommen beim Löschzug Hochlar</h2>
+      <p>Tag und Nacht im Einsatz – für Ihre Sicherheit in Recklinghausen.</p>
+    </div>
+  </section>
+
+  <section id="aktuelles" class="content-block">
+    <h3>🔥 Aktuelles & Einsätze</h3>
+    <p>Unsere Arbeit in Aktion – Berichte, Bilder & Veranstaltungen.</p>
+    <a href="#">Jetzt ansehen</a>
+  </section>
+
+  <section id="ueber-uns" class="content-block">
+    <h3>👨‍🚒 Über uns</h3>
+    <p>Team, Technik & Tradition – lernen Sie uns kennen.</p>
+    <a href="#">Mehr erfahren</a>
+  </section>
+
+  <section id="mitmachen" class="content-block">
+    <h3>📅 Mitmachen & Unterstützen</h3>
+    <p>Ob aktiv oder als Förderer – wir freuen uns auf Sie!</p>
+    <a href="#">Mitmachen</a>
+  </section>
+
+  <section id="kontakt" class="content-block">
+    <h3>📞 Kontakt</h3>
+    <p>Fragen? Schreiben Sie uns oder kommen Sie vorbei!</p>
+    <a href="#">Kontaktformular öffnen</a>
+  </section>
+
   <footer>
-    <p><a href="{{ '/datenschutz.html' | relative_url }}">Datenschutz</a>&nbsp;<a href="{{ '/impressum.html' | relative_url }}">Impressum</a>&nbsp; {{ site.time | date: '%Y' }} Feuerwehr Recklinghausen Löschzug Hochlar</p>
+    <p>© 2025 Feuerwehr Recklinghausen Löschzug Hochlar</p>
   </footer>
+
 </body>
 </html>
