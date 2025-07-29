@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: start
 title: Start
 ---
 # Willkommen beim Löschzug Hochlar

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} - {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+
+  <header>
+    <h1>{{ page.title }} - {{ site.title }}</h1>
+    <nav>
+      <ul>
+        <li><a href="{{ 'https://www.facebook.com/lz.hochlar' }}" target="_blank">Aktuelles</a></li>
+        <li><a href="{{ 'https://www.kreis-re.de/Inhalte/Buergerservice/Leben_und_Wohnen/Feuerwehr-_und_Rettungsleitstelle/_Einsaetze_der_Feuerwehren/index.asp' }}" target="_blank">Einsätze</a></li>
+        <li><a href="#mitmachen">Mitmachen</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Willkommen beim Löschzug Hochlar</h2>
+      <p>Tag und Nacht im Einsatz – für Ihre Sicherheit in Recklinghausen.</p>
+    </div>
+  </section>
+
+  <section id="aktuelles" class="content-block">
+    <h3>🔥 Aktuelles & Einsätze</h3>
+    <p>Unsere Arbeit in Aktion – Berichte, Bilder & Veranstaltungen.</p>
+    <a href="{{ 'https://www.kreis-re.de/Inhalte/Buergerservice/Leben_und_Wohnen/Feuerwehr-_und_Rettungsleitstelle/_Einsaetze_der_Feuerwehren/index.asp' }}" target="_blank">Jetzt ansehen</a>
+  </section>
+
+  <section id="ueber-uns" class="content-block">
+    <h3>👨‍🚒 Über uns</h3>
+    <p>Team, Technik & Tradition – lernen Sie uns kennen.</p>
+    <a href="#">Mehr erfahren</a>
+  </section>
+
+  <section id="mitmachen" class="content-block">
+    <h3>📅 Mitmachen & Unterstützen</h3>
+    <p>Ob aktiv oder als Förderer – wir freuen uns auf Sie!</p>
+    <a href="#">Mitmachen</a>
+  </section>
+
+  <section id="kontakt" class="content-block">
+    <h3>📞 Kontakt</h3>
+    <p>Fragen? Schreiben Sie uns oder kommen Sie vorbei!</p>
+    <a href="#">Kontaktformular öffnen</a>
+  </section>
+  </main>
+  <footer>
+    <p><a href="{{ '/datenschutz.html' | relative_url }}">Datenschutz</a> <a href="{{ '/impressum.html' | relative_url }}">Impressum</a><br>© 2025 Feuerwehr Recklinghausen Löschzug Hochlar</p>
+  </footer>
+
+</body>
+</html>
