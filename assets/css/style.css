@@ -32,7 +32,7 @@ nav a {
 }
 
 .hero {
-  background: url('feuerwehr-truck.jpg') center/cover no-repeat;
+  background: url({{ '/assets/img/feuerwehr-truck.jpg' | relative_url }}) center/cover no-repeat;
   height: 400px;
   display: flex;
   align-items: center;
